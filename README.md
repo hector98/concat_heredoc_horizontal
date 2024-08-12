@@ -23,6 +23,7 @@ b = " World
 Ruby"
 c = ConcatHeredocHorizontal.concat_simple(a, b)
 puts c
+```
 
 ## Development
 
