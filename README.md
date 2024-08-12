@@ -1,5 +1,7 @@
 # ConcatHeredocHorizontal
 
+![example result view](images/ruby.png)
+
 Hello and welcome to my gem, this gem is simple but it helped me solve a problem about concatenating two multi-line strings (Heredoc's), since these have line breaks, which make it difficult to position them horizontally, the gem is also capable of concatenating simple strings.
 
 ## Installation

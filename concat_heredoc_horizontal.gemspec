@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["barrioshector13@gmail.com"]
 
   spec.summary = "Write a short summary, because RubyGems requires one."
-  spec.description = "Write a longer description or delete this line."
+  spec.description = "Hello and welcome to my gem, this gem is simple but it helped me solve a problem about concatenating two multi-line strings (Heredoc's), since these have line breaks, which make it difficult to position them horizontally, the gem is also capable of concatenating simple strings."
   spec.homepage = "https://github.com/hector98/concat_heredoc_horizontal"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
