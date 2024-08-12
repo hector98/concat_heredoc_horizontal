@@ -5,14 +5,15 @@ require_relative "concat_heredoc_horizontal/version"
 module ConcatHeredocHorizontal
   class Error < StandardError; end
   # Your code goes here...
-  def concat_simple(str_1, str_2)
+  def self.concat_simple(str_1, str_2)
     i = 0
     j = 0
     k = 0
     lim_sup = (str_1.count("\n") > str_2.count("\n"))? str_1.count("\n") : str_2.count("\n")
-    str_result = ""
+    str = ""
+    str_result = str.dup
 
-    while i < lum_sup
+    while i <= lim_sup
       while j < str_1.length
         unless str_1[j].eql?("\n")
           str_result << str_1[j]
@@ -37,6 +38,6 @@ module ConcatHeredocHorizontal
       i += 1
     end
 
-    return str_result
+    return str_result.chomp
   end
 end
